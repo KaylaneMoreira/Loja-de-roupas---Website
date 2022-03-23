@@ -1,4 +1,4 @@
-#Koffee Store
+<h1>Koffee Store</h1>
 
 <h3>Site atualmente em construção, com sua estilização em desenvolvimento.</h3>
 
