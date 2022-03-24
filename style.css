@@ -3,10 +3,14 @@
     font-family: 'Lato', sans-serif;
 }
 body{
-    background-color: rgb(231, 229, 229);
+    background-color: #f3ece9;
+}
+header{
+    position: sticky;
+    top: 0;
 }
 nav{
-    background: white;
+    background: #f3ece9;
     color: rgb(94, 40, 40);
     display: flex;
     justify-content: space-between;
@@ -29,13 +33,14 @@ section{
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px;
-    gap: 20px;
     text-align: center;
     line-height: 25px;
-    height: 650px;
+    height: 450px;
     border-radius: 5px;
-    background-color: white;
+    color: #471f11;
 }
+/* section h1{
+} */
 img{
     width: 20%;
     height: auto;
@@ -46,6 +51,7 @@ footer{
     display: flex;
     background-color:#5f2b19;
     height: 150px;
+    justify-content: space-evenly;
 }
 footer ul{
     list-style: none;
@@ -77,8 +83,36 @@ section{
 
 .footerData a{
     display: flex;
-    position: relative;
     padding-top: 20px;
-    left: 630px;
     color: white;
+}
+.container {
+    display: flex;
+    height: 30px;
+    background-color: white;
+    margin-top: 115px;
+    border-radius: 10px;
+}
+.fas{
+    padding: 8px;
+    color: #5f2b19;
+}
+
+.fa-brands:hover{
+    color: #dc6539;
+}
+input{
+    border-style: none;
+    border-radius: 10px;
+}
+input:focus{
+    outline: 0;
+}
+
+@media (max-width:1000px){
+    .footerData a{
+        display: flex;
+        padding-top: 20px;
+        color: white;
+    }
 }
