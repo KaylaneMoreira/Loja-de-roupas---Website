@@ -47,6 +47,9 @@ img{
     border-radius: 20px;
     margin-left: auto;
 }
+.img{
+    object-fit: contain;
+}
 footer{
     display: flex;
     background-color:#5f2b19;
