@@ -1,1 +1,7 @@
-Estou atualmente construindo este projeto para a loja de roupas da minha mãe.
+<h1>Koffee Store</h1>
+
+<h3>Site atualmente em construção, com sua estilização em desenvolvimento.</h3>
+
+<p>A proposta é criar um site para uma loja virtual na qual pertence a minha mãe, com itens para compra, formas de contato e dentre outras necessidades.</p>
+
+
